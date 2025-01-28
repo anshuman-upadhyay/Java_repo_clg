@@ -34,7 +34,7 @@ class Q21{
         }
             c=c+1;
         }
-        System.out.println();
+        System.out.println();4
     }
 
 }
