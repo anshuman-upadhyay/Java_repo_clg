@@ -1,5 +1,5 @@
 
-public class Shape {
+class Shape {
     private double length;
     private double breadth;
 

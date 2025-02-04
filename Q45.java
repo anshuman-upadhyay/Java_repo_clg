@@ -1,4 +1,4 @@
-public class ATM {
+class ATM {
     private double balance;
 
     public ATM(double balance) {

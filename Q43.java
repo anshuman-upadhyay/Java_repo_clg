@@ -1,4 +1,4 @@
-public class movie {
+class movie {
     private String movieTitle;
     private String genre;
     private int duration;
