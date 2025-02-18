@@ -1,13 +1,13 @@
 // Use the protected access modifier in a class and its subclasses. Demonstrate how it allows access within the same package and by subclasses.
 // Implement a class hierarchy with multiple constructors in each class. 
-class hierarchy{
+class hell{
     protected int data;
     protected String input;
-    hierarchy(int data){
+    hell(int data){
         this.data=data;
     }
-    hierarchy(){}
-    hierarchy(int data,String input){
+    hell(){}
+    hell(int data,String input){
         this.data=data;
         this.input=input;
     }
@@ -18,9 +18,9 @@ class hierarchy{
 }
 class Q54{
     public static void main(String args[]){
-        hierarchy h=new hierarchy();
-        hierarchy i=new hierarchy(20);
-        hierarchy j=new hierarchy(100,"Piyush");
+        hell h=new hell();
+        hell i=new hell(20);
+        hell j=new hell(100,"Piyush");
         h.show();
         i.show();
         j.show();
